@@ -1,0 +1,22 @@
+[
+    {"prompt" : "main =\n picture"},
+    {"prompt" : "main =\n animation view"},
+    {"prompt" : "main =\n Browser.element\n { init = init,\n update = update,\n subscriptions = subscriptions,\n view = view\n }"},
+    {"prompt" : "view : Model -> Html Msg"},
+    {"prompt" : "import Browser\nimport Html exposing (..)\nimport Task\nimport Time"},
+    {"prompt" : "main =\n div []\n [ h1 [] [ text \"My Grocery List\" ]"},
+    {"prompt" : "main : Html msg\nmain =\n  svg\n    [ viewBox \"0 0 400 400\"\n    , width \"400\"\n    , height \"400\"\n    ]"},
+    {"prompt" : "type alias Model = List File"},
+    {"prompt" : "main =\n  Browser.sandbox { init = init, update = update, view = view }\ntype alias Model = Int"},
+    {"prompt" : "type Model\n  = Failure\n  | Loading\n  | Success Quote"},
+    {"prompt" : "init : () -> (Model, Cmd Msg)\ninit _ =\n  (Loading, getRandomQuote)"},
+    {"prompt" : "update : Msg -> Model -> (Model, Cmd Msg)\nupdate msg model ="},
+    {"prompt" : "subscriptions : Model -> Sub Msg\nsubscriptions model ="},
+    {"prompt" : "view : Model -> Html Msg\nview model ="},
+    {"prompt" : "cardGenerator : Random.Generator Card\ncardGenerator ="},
+    {"prompt" : "viewCard : Card -> String\nviewCard card ="},
+    {"prompt" : "main ="},
+    {"prompt" : "module BlorkemonCards exposing\n    ( Card\n    , compareShinyPower\n    , expectedWinner\n    , isMorePowerful\n    , maxPower\n    , sortByCoolness\n    , sortByMonsterName\n    )"},
+    {"prompt" : "fact : Int -> Int\nfact="},
+    {"prompt" : "simpleSum : (Int, Int) -> Int\nsimpleSum ="}
+]
