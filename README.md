@@ -15,6 +15,7 @@ This project contains
 - `fine_tuning.ipynb` is the file containing the scripts for the fine-tuning process.
 - `verification.ipynb` contains the script used to verify the generated code samples.
 - `test.json` contains the prompts for the verification process.
+- `rapport.pdf` our project report for this assignement.
 
 ## Install
 This project was developped using Python-3.12.8; most required libraries can be installed using the Python notebooks (.ipynb) using the provided install cells.
