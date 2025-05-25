@@ -18,5 +18,6 @@
     {"prompt" : "main ="},
     {"prompt" : "module BlorkemonCards exposing\n    ( Card\n    , compareShinyPower\n    , expectedWinner\n    , isMorePowerful\n    , maxPower\n    , sortByCoolness\n    , sortByMonsterName\n    )"},
     {"prompt" : "fact : Int -> Int\nfact="},
-    {"prompt" : "simpleSum : (Int, Int) -> Int\nsimpleSum ="}
+    {"prompt" : "simpleSum : (Int, Int) -> Int\nsimpleSum ="},
+    {"prompt" : "listLength ="}
 ]
